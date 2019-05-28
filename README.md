@@ -39,9 +39,10 @@ a global variable of an integer array "dp[i][j]".
 - Any person can easily be represented by bitmask(usually called as ‘mask’). When ith bit
    of ‘mask’ is set, that means that person is present at left side of the bridge otherwise
    it would be present at right side of bridge.
-=>>> For instance, let the mask of 6 people is 100101, which represents the person 1, 4, 6
+   
+- For instance, let the mask of 6 people is 100101, which represents the person 1, 4, 6
       are present at left side of bridge and the person 2, 3 and 5 are present at the right
       side of the bridge.
-NOTE: The Bitwise XOR will take a pair of bits from each position, and if both the bits
+- NOTE: The Bitwise XOR will take a pair of bits from each position, and if both the bits
   are different, the result on that position will be '1'. If both bits are same, then the
   result on that position is '0'.
